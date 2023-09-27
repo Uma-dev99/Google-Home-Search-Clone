@@ -2,8 +2,24 @@
     margin:0;
     padding:0;
     border:border-box;
+    outline: none;
 }
+
 html,body{
     height:100%;
     width: 100%;
 }
+ .navbar{
+    display:block;
+    float: right;
+    height:50px;
+    padding: 10px;
+ }
+ .navbar-wrapper{
+    width: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 13px;
+ }
+ 
