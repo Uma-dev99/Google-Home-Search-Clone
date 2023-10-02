@@ -47,3 +47,7 @@ html,body{
  .app:hover , .account:hover {
     background-color: #f2f2f2;
  }
+ .app > i {
+    font-size: 17px;
+    color:#5f6368;
+ }
