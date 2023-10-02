@@ -132,3 +132,19 @@ footer{
     padding:15px 30px;
     border-bottom: 1px solid #dadce0;
 }
+.footer-menu{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center
+    padding: 15px 30px ;
+}
+.left-menu a , .right-menu a{
+    text-decoration:  none;
+    color:#6f6f6f;
+    padding: 0 20px 0 0 ;
+}
+
+.left-menu a:hover , .right-menu a:hover{
+    text-decoration: underline;
+}
