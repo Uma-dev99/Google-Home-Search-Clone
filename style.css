@@ -22,4 +22,28 @@ html,body{
     align-items: center;
     font-size: 13px;
  }
- 
+ .navbar-wrapper > a{
+    text-decoration:none;
+    color:rgba(0,0,0,0.87);
+ }
+ .navbar-wrapper > a:hover{
+    text-decoration: underline;
+ }
+ .app , .account{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    cursor: pointer; 
+ }
+ .account > img {
+    width: 32px;
+    height: 32px;
+    object-fit: cover;
+    border-radius: 50%;
+ }
+ .app:hover , .account:hover {
+    background-color: #f2f2f2;
+ }
